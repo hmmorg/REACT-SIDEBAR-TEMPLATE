@@ -1,0 +1,16 @@
+@import 'styles/colors';
+.SideBar{
+    height: 100vh;
+    background: $sidebar-background-color !important;
+    .logo__section{
+        padding: 1rem;
+        h3 {
+            color: white;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+    .MenuItems, .SubMenu, .SubMenu > ul{
+        background: $sidebar-background-color !important;
+    }
+}

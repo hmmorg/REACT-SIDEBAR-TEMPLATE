@@ -1,0 +1,25 @@
+.Login{
+    height: 100vh;
+    display: grid;
+    background-color: #f8f8f8;
+    place-items: center;
+    .Login__Container {
+        padding: 5rem;
+        text-align: center;
+        background-color: white;
+        h3 {
+            margin-bottom: 1rem;
+        }
+        .Login__UserName{
+            display: block;
+            margin-bottom: 1rem;
+        }
+        .Login__Password{
+            display: block;
+            margin-bottom: 1rem;
+        }
+        .Login__Button{
+            width: 100%;
+        }
+    }
+}
